@@ -15,38 +15,6 @@ Alexey Kutepov a.k.a. rexim.
 
 # Installation #
 
-You can use built-in package manager (package.el) or do everything by
-your hands.
-
-## Using package manager ##
-
-This theme is available on two repositories:
-[MELPA](http://melpa.milkbox.net/) and
-[Marmalade](http://marmalade-repo.org/). Add the following to your
-emacs config file somewhere (.emacs, init.el, whatever)
-
-```
-(require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
-```
-
-for [MELPA](http://melpa.milkbox.net/), or
-
-```
-(require 'package)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
-```
-
-for [Marmalade](http://marmalade-repo.org/).
-
-I personally prefer [MELPA](http://melpa.milkbox.net/), 'cause it
-hourly updates its packages from upstream source.
-
-Then use `M-x package-install RET gruber-darker-theme RET` to install
-the theme. Use `M-x customize-themes` to change your current theme.
-
 ## Manual old fashioned way ##
 
 Download the theme to your local directory. You can do it through `git
